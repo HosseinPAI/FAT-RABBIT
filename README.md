@@ -55,3 +55,16 @@ The figures below summarize the results for ResNet-20 under various attack scena
 ├── README.md                   # You're here
 └── requirements.txt            # Dependencies
 
+---
+#### 📚 Citation
+
+If you use this work in your research, please cite:
+
+@INPROCEEDINGS{Hossein_2024_FATRABBIT,
+author={Pourmehrani, Hossein and Bahrami, Javad and Nooralinejad, Parsa and Pirsiavash, Hamed and Karimi, Naghmeh},
+booktitle={2024 IEEE International Test Conference (ITC)}, 
+title={FAT-RABBIT: Fault-Aware Training towards Robustness Against Bit-flip Based Attacks in Deep Neural Networks}, 
+year={2024},
+pages={106-110},
+doi={10.1109/ITC51657.2024.00029}
+}
