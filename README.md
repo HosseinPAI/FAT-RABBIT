@@ -45,17 +45,6 @@ The figures below summarize the results for ResNet-20 under various attack scena
 
 ---
 
-#### 📁 Project Structure
-
-```bash
-.
-├── src/                        # Core implementation (FAT-RABBIT, M-SAM)
-├── results/                    # Accuracy logs, graphs, evaluation outputs
-├── figures/                    # Figures from paper
-├── README.md                   # You're here
-└── requirements.txt            # Dependencies
-
-
 ---
 #### 📚 Citation
 
@@ -69,3 +58,15 @@ year={2024},
 pages={106-110},
 doi={10.1109/ITC51657.2024.00029}
 }
+
+---
+
+#### 📁 Project Structure
+
+```bash
+.
+├── src/                        # Core implementation (FAT-RABBIT, M-SAM)
+├── results/                    # Accuracy logs, graphs, evaluation outputs
+├── figures/                    # Figures from paper
+├── README.md                   # You're here
+└── requirements.txt            # Dependencies
