@@ -44,12 +44,11 @@ The figures below summarize the results for ResNet-20 under various attack scena
 ![Results](Figures/Resnet20.png)
 
 ---
-
----
 #### 📚 Citation
 
 If you use this work in your research, please cite:
 
+```bash
 @INPROCEEDINGS{Hossein_2024_FATRABBIT,
 author={Pourmehrani, Hossein and Bahrami, Javad and Nooralinejad, Parsa and Pirsiavash, Hamed and Karimi, Naghmeh},
 booktitle={2024 IEEE International Test Conference (ITC)}, 
