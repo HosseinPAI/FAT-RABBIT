@@ -1,11 +1,11 @@
-# 🐰 FAT-RABBIT: Fault-Aware Training towards Robustness Against Bit-flip Based Attacks in Deep Neural Networks
+### 🐰 FAT-RABBIT: Fault-Aware Training towards Robustness Against Bit-flip Based Attacks in Deep Neural Networks
 
 This repository provides the implementation of **FAT-RABBIT**, a fault-aware training scheme that enhances the robustness of deep neural networks (DNNs) against **bit-flip attacks (BFA)**. It also includes **Mutated-SAM (M-SAM)**, a novel optimization scheme, and the **Augmented FAT-RABBIT**, a hybrid approach that further strengthens model defense under fault injection.
 
 ![FAT-RABBIT Overview](Figures/Teaser_new.png)
 *Figure 1: An overview of FAT-RABBIT.*
 
-## 🔬 Overview
+#### 🔬 Overview
 
 Bit-flip attacks can dramatically reduce DNN accuracy by flipping only a few critical bits in weight memory (e.g., via Row-Hammer or laser illumination). FAT-RABBIT trains models under simulated fault conditions and new optimization method (M-SAM) to reduce sensitivity to such attacks by:
 
@@ -17,7 +17,7 @@ Bit-flip attacks can dramatically reduce DNN accuracy by flipping only a few cri
 
 ---
 
-## 📊 Key Features
+#### 📊 Key Features
 
 - ⚠️ **Fault injection-aware training (FAT-RABBIT)**
 - 🔁 **Mutated SAM (M-SAM) Optimizer** for better generalization under faults
@@ -27,7 +27,7 @@ Bit-flip attacks can dramatically reduce DNN accuracy by flipping only a few cri
 
 ---
 
-## 📁 Project Structure
+#### 📁 Project Structure
 
 ```bash
 .
