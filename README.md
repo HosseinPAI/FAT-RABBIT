@@ -26,6 +26,23 @@ Bit-flip attacks can dramatically reduce DNN accuracy by flipping only a few cri
 - 🧪 Tested under MSB flips, random bit flips, and multi-bit fault attacks
 
 ---
+#### 📈 Results
+
+We evaluated the robustness of ResNet-20 trained on the CIFAR-10 dataset under three types of bit-flip attacks:
+- MSB Flipping Attack
+- Single Random Bit Flip Attack
+- Multi-bit Flip Attack
+The models tested include:
+- Unprotected (no defense)
+- FAT-RABBIT (fault-aware training)
+- M-SAM (our optimizer)
+- Augmented FAT-RABBIT (combination of both)
+The figures below summarize the results for ResNet-20 under various attack scenarios. We also evaluated other ResNet architectures, and their results can be found in the paper.
+
+![FAT-RABBIT Overview](Figures/resnet20.png)
+*Figure 1: An overview of FAT-RABBIT.*
+
+---
 
 #### 📁 Project Structure
 
