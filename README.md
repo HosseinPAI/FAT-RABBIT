@@ -3,7 +3,7 @@
 This repository provides the implementation of **FAT-RABBIT**, a fault-aware training scheme that enhances the robustness of deep neural networks (DNNs) against **bit-flip attacks (BFA)**. It also includes **Mutated-SAM (M-SAM)**, a novel optimization scheme, and the **Augmented FAT-RABBIT**, a hybrid approach that further strengthens model defense under fault injection.
 
 ![FAT-RABBIT Overview](Figures/Teaser_new.png)
-*Figure 1: An overview of FAT-RABBIT.*
+*Fig 1: An overview of FAT-RABBIT.*
 
 #### 🔬 Overview
 
@@ -32,15 +32,16 @@ We evaluated the robustness of ResNet-20 trained on the CIFAR-10 dataset under t
 - MSB Flipping Attack
 - Single Random Bit Flip Attack
 - Multi-bit Flip Attack
+  
 The models tested include:
 - Unprotected (no defense)
 - FAT-RABBIT (fault-aware training)
 - M-SAM (our optimizer)
 - Augmented FAT-RABBIT (combination of both)
+  
 The figures below summarize the results for ResNet-20 under various attack scenarios. We also evaluated other ResNet architectures, and their results can be found in the paper.
 
 ![FAT-RABBIT Overview](Figures/resnet20.png)
-*Figure 1: An overview of FAT-RABBIT.*
 
 ---
 
