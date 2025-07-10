@@ -7,23 +7,23 @@ This repository provides the implementation of **FAT-RABBIT**, a fault-aware tra
 
 #### 🔬 Overview
 
-Bit-flip attacks can dramatically reduce DNN accuracy by flipping only a few critical bits in weight memory (e.g., via Row-Hammer or laser illumination). FAT-RABBIT trains models under simulated fault conditions and new optimization method (M-SAM) to reduce sensitivity to such attacks by:
+###### Bit-flip attacks can dramatically reduce DNN accuracy by flipping only a few critical bits in weight memory (e.g., via Row-Hammer or laser illumination). FAT-RABBIT trains models under simulated fault conditions and new optimization method (M-SAM) to reduce sensitivity to such attacks by:
 
-- Flattening the distribution of critical weights.
-- Flipping most significant bits (MSB) during training.
-- Employing fixed-point quantization (Q1.(q−1)) to limit representational error.
+###### - Flattening the distribution of critical weights.
+###### - Flipping most significant bits (MSB) during training.
+###### - Employing fixed-point quantization (Q1.(q−1)) to limit representational error.
 
-📌 *No hardware changes are required—robustness is purely achieved during training.*
+###### 📌 *No hardware changes are required—robustness is purely achieved during training.*
 
 ---
 
 #### 📊 Key Features
 
-- ⚠️ **Fault injection-aware training (FAT-RABBIT)**
-- 🔁 **Mutated SAM (M-SAM) Optimizer** for better generalization under faults
-- 🛡️ **Augmented FAT-RABBIT** combines both techniques for enhanced protection
-- ✅ Compatible with CIFAR-10/100 datasets and ResNet architectures (18, 20, 32, 44)
-- 🧪 Tested under MSB flips, random bit flips, and multi-bit fault attacks
+###### - ⚠️ **Fault injection-aware training (FAT-RABBIT)**
+###### - 🔁 **Mutated SAM (M-SAM) Optimizer** for better generalization under faults
+###### - 🛡️ **Augmented FAT-RABBIT** combines both techniques for enhanced protection
+###### - ✅ Compatible with CIFAR-10/100 datasets and ResNet architectures (18, 20, 32, 44)
+###### - 🧪 Tested under MSB flips, random bit flips, and multi-bit fault attacks
 
 ---
 #### 📈 Results
@@ -41,7 +41,7 @@ The models tested include:
   
 The figures below summarize the results for ResNet-20 under various attack scenarios. We also evaluated other ResNet architectures, and their results can be found in the paper.
 
-![FAT-RABBIT Overview](Figures/resnet20.png)
+![Results](Figures/Resnet20.png)
 
 ---
 
